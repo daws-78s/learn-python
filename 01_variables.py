@@ -25,8 +25,7 @@ c = True # true
 # Strings
 d = 'This is a string'
 e = "This is also a string"
-f = """
-This is a multi line string
+f = """This is a multi line string
 """"
 
 # Today's weather is nice
