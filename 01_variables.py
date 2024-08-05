@@ -84,3 +84,8 @@ print(h)
 # Modulo division
 i = f % g
 print(i)
+
+# Addition
+a = "42"
+b = "43"
+print(a + b) # Concatenation
