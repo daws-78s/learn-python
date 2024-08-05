@@ -50,3 +50,4 @@ print(test_set)
 
 # type() function -> prints the datatype of the variable
 print(type(test_dict))
+print(type(print))
