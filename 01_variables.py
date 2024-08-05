@@ -51,3 +51,28 @@ print(test_set)
 # type() function -> prints the datatype of the variable
 print(type(test_dict))
 print(type(print))
+
+# Operations
+# Add
+# Sub
+# Multi
+# Divide
+# Integer division
+# Modulo division
+
+# Add
+a = 42
+b = 45.32
+c = a + b
+print(c)
+
+d = a - b
+print(d)
+
+e = a * b
+print(e)
+
+f = 12
+g = 3
+h = f / g
+print(h)
