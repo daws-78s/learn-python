@@ -80,3 +80,7 @@ print(h, type(h))
 # Integer division
 h = f // g
 print(h)
+
+# Modulo division
+i = f % g
+print(i)
