@@ -10,11 +10,6 @@ a = 42 # This is a integer variable
 # Print the value that is stored inside the variable
 print(a)
 
-"""
-- Boolean
-- Strings
-"""
-
 # Float value
 b = 42.345
 print(b)
@@ -34,3 +29,27 @@ d = 'Today\'s weather is nice'
 print(d)
 
 d = "Today's weather is nice"
+print(d)
+
+"""
+- List
+- Tuple
+- Set
+- Dictionary
+"""
+
+# This is a list
+test_list = ["hello", "world", "python"]
+print(test_list)
+
+# Tuple
+test_tuple = ("hello", "world", "python")
+print(test_tuple)
+
+# Dict
+test_dict = {'a': 1, 'b': 2}
+print(test_dict)
+
+# Set
+test_set = {'a', 'b', "abc"}
+print(test_set)
