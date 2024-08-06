@@ -3,3 +3,4 @@
 - Each and every datatype in python has several methods that are given by default
 - A method is used for a Class based object
 - A function is used for any object
+- Data types that are immutable can't be altered after they're defined.

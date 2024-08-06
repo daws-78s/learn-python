@@ -32,7 +32,7 @@ print("Length of a string:", len_str)
 sample_str = "hello"
 print(sample_str.capitalize()) # "Hello"
 
-# split(), join(), format(), count(), strip()
+# split(), join(), format(), count(), strip(), lstrip(), rstrip()
 sample_str = "This is a sample string"
 str_split = sample_str.split() # output: list
 print(str_split, type(str_split))
@@ -46,3 +46,8 @@ print(count_a)
 sample_str = "    devops is a very good career choice   "
 strip_str = sample_str.strip()
 print(strip_str)
+
+# Strings are immutable
+sample_str = "This is a sample string"
+sample_str[-1] = 'G'
+print(sample_str)
