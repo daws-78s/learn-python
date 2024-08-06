@@ -1,2 +1,3 @@
 - String Datatype
 - Python is based on Zero indexing
+- Each and every datatype in python has several methods that are given by default
