@@ -1,0 +1,2 @@
+- String Datatype
+- Python is based on Zero indexing
