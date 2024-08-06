@@ -40,3 +40,15 @@ print(k8s_idx)
 
 k8s_idx = res_tuple.index("k8s")
 print(k8s_idx)
+
+"""
+Traceback (most recent call last):
+  File "/home/cloudshell-user/python-devops/03_tuples.py", line 41, in <module>
+    k8s_idx = res_tuple.index("k8s")
+ValueError: tuple.index(x): x not in tuple
+"""
+
+# Tuple unpacking
+ansible, terraform, jenkins, docker, k8s = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s")
+
+print(ansible, terraform, jenkins, docker, k8s)
