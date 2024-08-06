@@ -52,3 +52,7 @@ ValueError: tuple.index(x): x not in tuple
 ansible, terraform, jenkins, docker, k8s = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s")
 
 print(ansible, terraform, jenkins, docker, k8s)
+
+ansible, *tools, orchestrator = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s", "DevOps")
+
+print(ansible, tools, orchestrator)
