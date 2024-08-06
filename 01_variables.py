@@ -89,3 +89,7 @@ print(i)
 a = "42"
 b = "43"
 print(a + b) # Concatenation
+
+# Power
+a = 10
+print(a**2) # a²
