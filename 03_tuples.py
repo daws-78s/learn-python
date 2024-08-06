@@ -30,3 +30,6 @@ TypeError: 'tuple' object does not support item assignment
 # Operations
 res_tuple = sample_tuple + sliced_tuple
 print(res_tuple) # ("Ansible", "Terraform", "Jenkins", "Docker", "K8s", "Terraform", "Jenkins")
+
+res_tuple_1 = sliced_tuple * 2
+print(res_tuple_1) # ("Terraform", "Jenkins", "Terraform", "Jenkins")
