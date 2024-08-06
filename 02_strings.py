@@ -36,3 +36,6 @@ print(sample_str.capitalize()) # "Hello"
 sample_str = "This is a sample string"
 str_split = sample_str.split() # output: list
 print(str_split, type(str_split))
+
+join_split_str = " ".join(str_split)
+print(join_split_str, type(join_split_str))
