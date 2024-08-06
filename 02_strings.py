@@ -39,3 +39,10 @@ print(str_split, type(str_split))
 
 join_split_str = " ".join(str_split)
 print(join_split_str, type(join_split_str))
+
+count_a = sample_str.count('a')
+print(count_a)
+
+sample_str = "    devops is a very good career choice   "
+strip_str = sample_str.strip()
+print(strip_str)
