@@ -34,5 +34,5 @@ print(sample_str.capitalize()) # "Hello"
 
 # split(), join(), format(), count(), strip()
 sample_str = "This is a sample string"
-str_split = sample_str.split(" ") # output: list
-print(sample_str, type(str_split))
+str_split = sample_str.split() # output: list
+print(str_split, type(str_split))
