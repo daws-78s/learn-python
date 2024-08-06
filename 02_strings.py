@@ -51,3 +51,10 @@ print(strip_str)
 sample_str = "This is a sample string"
 sample_str[-1] = 'G'
 print(sample_str)
+
+"""
+Traceback (most recent call last):
+  File "/home/cloudshell-user/python-devops/02_strings.py", line 52, in <module>
+    sample_str[-1] = 'G'
+TypeError: 'str' object does not support item assignment
+"""
