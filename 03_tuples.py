@@ -13,3 +13,9 @@ print(sample_ele)
 # Slicing
 sliced_tuple = sample_tuple[1:3] # ("Terraform", "Jenkins")
 print(sliced_tuple)
+
+sliced_tuple_len = len(sliced_tuple)
+print(sliced_tuple_len)
+
+sample_tuple[1] = "Shell"
+print(sample_tuple)
