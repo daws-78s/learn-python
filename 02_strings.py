@@ -31,3 +31,8 @@ print("Length of a string:", len_str)
 # Method
 sample_str = "hello"
 print(sample_str.capitalize()) # "Hello"
+
+# split(), join(), format(), count(), strip()
+sample_str = "This is a sample string"
+str_split = sample_str.split() # output: list
+print(sample_str, type(str_split))
