@@ -38,8 +38,8 @@ print(res_tuple_1) # ("Terraform", "Jenkins", "Terraform", "Jenkins")
 k8s_idx = res_tuple.index("K8s")
 print(k8s_idx)
 
-k8s_idx = res_tuple.index("k8s")
-print(k8s_idx)
+# k8s_idx = res_tuple.index("k8s")
+# print(k8s_idx)
 
 """
 Traceback (most recent call last):
