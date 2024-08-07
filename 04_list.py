@@ -38,3 +38,4 @@ print(sample_list)
 
 # Append list to list
 sample_list.append(sample_list)
+print(sample_list)
