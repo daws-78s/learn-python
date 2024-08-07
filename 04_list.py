@@ -33,5 +33,8 @@ print(sample_list)
 
 # Append element to the list
 sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
-sample_list.append("Shell")
+sample_list.append("Shell") # inplace operation
 print(sample_list)
+
+# Append list to list
+sample_list.append(sample_list)
