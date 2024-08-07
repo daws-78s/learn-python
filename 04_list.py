@@ -47,3 +47,7 @@ print(last_element)
 sample_list = [1, 2, 'sample', True]
 sample_list.extend(sample_list)
 print(len(sample_list), sample_list)
+
+# membership operator: in, not in
+is_elem = 2 in sample_list
+print(is_elem)
