@@ -40,5 +40,5 @@ print(sample_list)
 sample_list.append(sample_list)
 print(len(sample_list))
 
-last_element = sample_list[-1]
+last_element = sample_list[len(sample_list) - 1]
 print(last_element)
