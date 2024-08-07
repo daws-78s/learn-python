@@ -1,0 +1,4 @@
+- To know whether a datatype is mutable or not, perform adding or changing elements to it
+
+- Immutable datatypes: tuple, strings
+- Mutable datatypes: list, dict, set
