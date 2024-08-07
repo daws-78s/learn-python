@@ -24,3 +24,8 @@ dict_keys = sample_dict.keys()
 dict_values = sample_dict.values()
 dict_items = sample_dict.items()
 print(dict_keys, dict_values, dict_items)
+
+# What happens if you access a key that is not present inside a dict
+sample_dict = {"1": 1, 2: 4, 3: 9}
+print(sample_dict.get(1)) # None
+print(sample_dict[1]) # Error
