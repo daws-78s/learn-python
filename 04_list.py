@@ -30,3 +30,8 @@ print(sliced_list_len)
 # Once defined, it can be altered
 sample_list[1] = "Shell"
 print(sample_list)
+
+# Append element to the list
+sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
+sample_list.append("Shell")
+print(sample_list)
