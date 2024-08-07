@@ -26,5 +26,7 @@ print(sliced_list)
 sliced_list_len = len(sliced_list)
 print(sliced_list_len)
 
+# List is a mutable data type
+# Once defined, it can be altered
 sample_list[1] = "Shell"
 print(sample_list)
