@@ -42,3 +42,8 @@ print(len(sample_list))
 
 last_element = sample_list[len(sample_list) - 1]
 print(last_element)
+
+# extend
+sample_list = [1, 2, 'sample', True]
+sample_list.extend(sample_list)
+print(len(sample_list), sample_list)
