@@ -46,15 +46,27 @@
 # res = add(1, 2, 4, 5, 6)
 # print(res)
 
-def add(num1, num2, *args):
+# def add(num1, num2, *args):
+#     """
+#     This function performs addition of 2 numbers
+#     """
+#     res = num1 + num2 + sum(args)
+#     return res
+
+# res = add(1, 2, 4, 5)
+# print(res)
+
+# res = add(1, 2, 4, 5, 6)
+# print(res)
+
+def add(*args, **kwargs):
     """
     This function performs addition of 2 numbers
     """
-    res = num1 + num2 + sum(args)
-    return res
+    print(args, kwargs)
 
-res = add(1, 2, 4, 5)
+add(1, 2, 4)
 print(res)
 
-res = add(1, 2, 4, 5, 6)
+add(1, 2, 4, num1=5, num2=6)
 print(res)
