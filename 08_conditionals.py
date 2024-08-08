@@ -10,7 +10,7 @@ user_input = int(input("Enter a number:"))
 
 # Check whether the given number is equal to 10 or greater than 10 or less than 10 or something else
 
-# Method 1
+# Method 1: Nested if-else
 if user_input == 10:
     print("Right on target")
 else:
@@ -39,3 +39,4 @@ try:
         print("User input value is less than 10")
 except ValueError:
     print("Please enter a number")
+
