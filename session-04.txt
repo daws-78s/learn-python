@@ -9,3 +9,4 @@
     - For: Continue, Break
     - While
 - Functions
+- Lambda
