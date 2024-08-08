@@ -36,3 +36,5 @@ for idx in range(0, len(sample_list)):
     if sample_list[idx] == "Docker":
         exit(1)
     print(idx, sample_list[idx])
+
+print(sample_list)
