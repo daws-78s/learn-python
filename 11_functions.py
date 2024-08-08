@@ -65,8 +65,8 @@ def add(*args, **kwargs):
     """
     print(args, kwargs)
 
-add(1, 2, 4)
+res = add(1, 2, 4)
 print(res)
 
-add(1, 2, 4, num1=5, num2=6)
+res = add(1, 2, 4, num1=5, num2=6)
 print(res)
