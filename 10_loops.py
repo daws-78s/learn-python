@@ -39,12 +39,17 @@ sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
 
 # print(sample_list)
 
-sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
+# sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
 
-idx = 0
+# idx = 0
 
-while idx < len(sample_list):
-    if sample_list[idx] == "Docker":
-        break
-    print(idx, sample_list[idx])
-    idx += 1
+# while idx < len(sample_list):
+#     if sample_list[idx] == "Docker":
+#         break
+#     print(idx, sample_list[idx])
+#     idx += 1
+
+sample_dict = {1: 1, 2: 4, 3: 9}
+
+for k, v in sample_dict.items():
+    print(k, v)
