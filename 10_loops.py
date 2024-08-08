@@ -12,3 +12,6 @@ sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
 # 1:10 -> 1,2...,9
 sample_range = range(0, len(sample_list))
 print(sample_range, type(sample_range))
+
+for idx in sample_range:
+    print(idx)
