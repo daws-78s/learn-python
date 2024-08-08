@@ -6,6 +6,6 @@
     - elif - else if
 - Exception Handling: try (mandatory), except (mandatory), else (optional), finally (optional)
 - Loops
-    - For
+    - For: Continue
     - While
 - Functions
