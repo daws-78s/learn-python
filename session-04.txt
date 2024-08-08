@@ -1,3 +1,9 @@
 - Conditional statements
+    - if - else blocks
+    - if (mandatory)
+    - else (optional)
+    - But you should have only one else statement
+    - elif - else if
+- Exception Handling: try (mandatory), except (mandatory), else (optional), finally (optional)
 - Loops
 - Functions
